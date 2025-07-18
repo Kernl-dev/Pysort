@@ -31,6 +31,7 @@ file_categories = {
     'Executables': ['exe', 'msi', 'bat', 'apk', 'xapk'],
     'Audio': ['mp3', 'wav', 'aac', 'flac'],
     'Video': ['mp4', 'mkv', 'avi', 'mov'],
+    'Empty': ['']
 }
 
 while True:
@@ -52,5 +53,4 @@ while True:
     elif cont == 'n':
         print('Thanks for using Pysort')
         break
-
 
