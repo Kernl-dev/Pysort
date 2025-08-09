@@ -26,12 +26,11 @@ def move_files_by_category(files, extensions, folder_name):
 
 file_categories = {
     'Images': ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'tiff', 'svg', 'webp'],
-    'Documents': ['pdf', 'doc', 'docx', 'txt', 'odt', 'rtf', 'xls', 'xlsx', 'ppt', 'pptx', 'csv', 'epub'],
+    'Documents': ['pdf', 'doc', 'docx', 'txt', 'odt', 'rtf', 'xls', 'xlsx', 'ppt', 'pptx', 'csv', 'epub', 'html'],
     'Compressed': ['zip', 'rar', '7z', 'tar', 'gz', 'tar.gz', 'bz2', 'xz', 'deb', 'tar.xz', 'tgz', 'iso'],
     'Executables': ['exe', 'msi', 'bat', 'apk', 'xapk'],
     'Audio': ['mp3', 'wav', 'aac', 'flac'],
     'Video': ['mp4', 'mkv', 'avi', 'mov'],
-    'Empty': ['']
 }
 
 while True:
